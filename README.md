@@ -9,6 +9,8 @@ In this video player app a tiny pop out feature is designed to run a currently r
 4. Live video recording 
 5. Youtube Searching directy from the app
 
-#Background
+# Background
 * Youtube has a new feature to play your video in a tiny window but that window can't be furthur positioned and if we go to some other application ,the video is paused and can't be played.
 * This PWVP overcomes those issues. The video playing in the tiny window can be positioned on any side of the screen. One can shift to other app and the video will still continue playing in that window. 
+* Example - One can use whatsapp and can simultaneously watch newly downloaded movie in a corner window.
+* Note - It's very much different from Screensplit because it plays video in a tiny window which override the surface of another application unlike the concept of Screensplit where the display screen is divided into two parts. 
