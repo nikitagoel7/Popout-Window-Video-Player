@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<style android:name="mytheme"
+    android:parent="Theme.AppCompat.DayNight"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+-->
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical|center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!--<cn.jzvd.demo.CustomView.MyJZVideoPlayerStandard
+                    android:id="@+id/jz_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" /-->
+
+        <Button
+            android:id="@+id/tiny_window"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center_horizontal"
+            android:fadeScrollbars="false"
+            android:text="Click me to generate tiny window"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/about_listview"
+            android:layout_alignStart="@+id/about_listview" />
+
+        <Button
+            android:id="@+id/auto_tiny_window"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="Auto tiny window"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/search_youtube"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Search Online Video"
+            android:textStyle="bold"
+            android:layout_below="@+id/auto_tiny_window"
+            android:layout_alignLeft="@+id/about_webview"
+            android:layout_alignStart="@+id/about_webview" />
+
+        <Button
+            android:id="@+id/about_listview"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Show ListView"
+            android:textStyle="bold"
+            android:layout_above="@+id/night_mode"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/about_api"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center_horizontal"
+            android:text="About App"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tiny_window"
+            android:layout_toStartOf="@+id/tiny_window"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="19dp" />
+
+        <Button
+            android:id="@+id/about_webview"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Show GridView"
+            android:textStyle="bold"
+            android:layout_below="@+id/tiny_window"
+            android:layout_alignLeft="@+id/about_api"
+            android:layout_alignStart="@+id/about_api"
+            android:layout_marginTop="17dp" />
+
+        <Button
+            android:id="@+id/night_mode"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Switch Mode"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/about_api"
+            android:layout_alignLeft="@+id/about_listview"
+            android:layout_alignStart="@+id/about_listview" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            app:fabSize="normal"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_centerInParent="true"
+    />
+        </RelativeLayout>

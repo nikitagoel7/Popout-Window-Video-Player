@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lotus">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="About App"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:text="JiaoZi Video Player is an open source app created by
+The main purpose of the app is to educate the learners about the new features that can be added in a video player and help them learn through our easy writing style.
+This app one stop for a video player. A tiny pop out feature is designed to run a currently running video even after the app in closed. Night mode is enabled to set the system brightness to change. A brightness adjusting seek bar is provided in our two views, ie, Grid View and List View.
+Live video recording can be done in this video player and the video id saved in the system and in this app. This app contains Youtube search option for searching videos online. The content menu of selected video contains delete, share and find in google option."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</LinearLayout>
