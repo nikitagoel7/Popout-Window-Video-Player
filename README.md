@@ -1,4 +1,7 @@
-# Popout-Window-Video-Player
+# Contributed By
+Akshat Agarwal, Nikita Goel, Rishabh Kanodiya, Smriti Mittal
+
+# Popout-Window-Video-Player 
 An unique video playing app which supports popout feature for video playing.
 In this video player app a tiny pop out feature is designed to run a currently running video even after the app in closed in a floating window which can override other apps. Other features include night mode ,CRUD options and Youtube Search option.
 
